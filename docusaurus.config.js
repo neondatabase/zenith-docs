@@ -10,8 +10,11 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'zenithdb', // Usually your GitHub org/user name.
-  projectName: 'zenith', // Usually your repo name.
+  url: 'https://mklgallegos.github.io', // Your website URL
+  baseUrl: '/',
+  organizationName: 'mklgallegos', // Usually your GitHub org/user name.
+  projectName: 'zenith-docs-prototype', // Usually your repo name.
+  trailingSlash: false,
   themeConfig: {
     navbar: {
       title: 'Zenith Docs',
