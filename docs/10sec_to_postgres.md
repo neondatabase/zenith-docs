@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
-sidebar_label: 10 sec to PostgreSQL
+sidebar_position: 1
+sidebar_label: Get PostgreSQL in the cloud NOW
 ---
-# 10 seconds to Serverles PostgreSQL
+# Get PostgreSQL in the cloud NOW
 
 You have an application that requires a Postgres database and you want to get a connection string to free instance of Postgres in the cloud? You know enough about PostgreSQL?
 
-If not, head out to [Overview](/) and then [Introduction](Introduction)
+If not, head out to [Introduction](/)
 
 In this section you will find out how to create a serverless connection to PostgreSQL in the cloud in less than 10 seconds
 
