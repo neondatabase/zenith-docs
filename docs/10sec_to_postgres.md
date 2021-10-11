@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
-sidebar_label: Get PostgreSQL in the cloud NOW
+sidebar_label: Free Cloud PostgreSQL Now
 ---
-# Get PostgreSQL in the cloud NOW
+# Get Free Cloud PostgreSQL Now
 
 You have an application that requires a Postgres database and you want to get a connection string to free instance of Postgres in the cloud? You know enough about PostgreSQL?
 
