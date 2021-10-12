@@ -44,7 +44,7 @@ The storage layer replicates data across multiple availability zones. The comput
 
 This process has vast implications for the pay-per-use pricing model as it allows users to reduce costs significantly. Zenith is a straightforward and cost-efficient option for applications with infrequent and intermittent use.
 
-## Straightforward
+## Simplicity
 
 Classic PostgreSQL implementations require data capacity to be managed and provisioned. Zenith allows users to save time and resources because it auto-scales to match their applications requirements. Additionally, because it’s on-demand, it can automatically start up and shut down as needed.
 Cost-Effective
@@ -63,14 +63,14 @@ High availability is essential for production applications. Zenith allows high a
 
 Zenith supports a wide range of database workloads, such as websites and development and test environments. Furthermore, it supports both applications with periodic, sparse, or unpredictable workloads, and the most demanding, business-critical applications requiring high availability and high capacity scaling.
 
-## Inconstant Workloads
+## Irregular Workloads
 
 Several applications like payroll, operational reporting, or budgeting software are used infrequent times during a day or year. Lightly-used applications present a problem for database management because they require throughput at irregular peaks. 
 
 Provisioning for these intermittent capacity needs means businesses are faced with a choice: either pay for resources they don’t typically use or average database capacity. Paying for resources that are not used frequently is uneconomical. While averaging capacity can result in significant performance issues and a poor user experience during times the application is active.
 
-## Zenith’s auto-scaling database solves this issue.
-Unpredictable Workloads
+Zenith’s auto-scaling database solves this issue.
+## Workload Spikes
 
 Many databases face extreme workloads at unpredictable times. Capacity planning is possible when database managers can plan ahead, but unexpected spikes are more challenging to account for. Zenith’s serverless model provides enough elasticity to scale up during an application’s peak load and then scale down when the spike is over.
 Database Fleet Maintenance
