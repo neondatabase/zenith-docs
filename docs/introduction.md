@@ -20,7 +20,7 @@ Unlike typical Postgres in the cloud services, Zenith is serverless. This differ
 ## What Does Zenith Do?
 
 
-Zenith’s chief innovation is the separation of storage and compute. By dividing these processes, database software can increase availability and scale. This can also substantially reduce costs.
+Zenith’s main innovation is the separation of storage and compute. By dividing these processes, database software can increase availability and scale. This can also substantially reduce costs.
 
 The separation of storage and compute processes means creating database systems so that all persistent data is stored on a remote, network-attached source. In this type of database architecture, local storage holds transient data. When necessary, users can rebuild local storage from the persistent storage data.
 
@@ -70,19 +70,23 @@ Several applications like payroll, operational reporting, or budgeting software 
 Provisioning for these intermittent capacity needs means businesses are faced with a choice: either pay for resources they don’t typically use or average database capacity. Paying for resources that are not used frequently is uneconomical. While averaging capacity can result in significant performance issues and a poor user experience during times the application is active.
 
 Zenith’s auto-scaling database solves this issue.
-## Workload Spikes
+
+## Capacity planning
 
 Many databases face extreme workloads at unpredictable times. Capacity planning is possible when database managers can plan ahead, but unexpected spikes are more challenging to account for. Zenith’s serverless model provides enough elasticity to scale up during an application’s peak load and then scale down when the spike is over.
-Database Fleet Maintenance
+
+## Database Fleet Maintenance
+
 Modern enterprises often have software stacks of hundreds of applications. Managing resources across each database is a challenging task. As requirements for each application vary, every database needs to be monitored and adjusted for capacity to achieve availability and performance within a budget.
 Zenith adjusts database capacity on-demand, eliminating the need to manage hundreds or more databases within an enterprise’s fleet.
 
-## SasS Applications
+## SaaS Applications
 
 SaaS vendors can run thousands of databases, with each providing support for different customers. Frequently, these databases are run in single clusters to optimize use and cost-efficiency. However, the management of these databases needs to take place individually. For example, some cloud computing infrastructure co-tenants can use a disproportionate amount of bandwidth, CPU, and disk I/O, negatively affecting the other co-located databases.
 
 Zenith solves this issue by allowing SaaS vendors to provision database clusters for each customer without worrying about the costs of provisioned capacity. Databases can be shut down when they are not active, while automated capacity adjustments can meet application needs.
-What is the Idea Behind Zenith?
+
+## What is the Idea Behind Zenith?
 
 Postgres is fast becoming the leading global relational database. Security, stability, flexibility, and a vast and ever-growing open-source community are all contributing to its rise to prominence. However, the community has overlooked cloud-native capabilities for Postgres.
 
