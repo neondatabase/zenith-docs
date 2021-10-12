@@ -10,7 +10,7 @@ You have an application that requires a Postgres database and you want to get a 
 You can create serverless Postgres in the cloud in this three easy steps
 
 
-## 1. Sign up to [console](http://console.zenith.com)
+## 1. Sign up to [console](http://console.zenith.tech)
 You will need to provide your github credentials and log in to the console. In the future you will also be able to sign up with Google, Microsoft, Apple, or Okta
 
 ## 2. Go to the clusters page and click "Create New Cluster"
