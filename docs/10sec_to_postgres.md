@@ -3,34 +3,23 @@ sidebar_position: 1
 sidebar_label: Free Cloud PostgreSQL Now
 ---
 # Get Free Cloud PostgreSQL Now
+In this section you will find out how to create a serverless PostgreSQL cluster in the cloud in less than 10 seconds.
 
-You have an application that requires a Postgres database and you want to get a connection string to free instance of Postgres in the cloud? You know enough about PostgreSQL?
+You have an application that requires a Postgres database and you want to get a connection string to free instance of Postgres in the cloud? You know enough about PostgreSQL? Then this section is for you.If not, head out to [introduction](/)
 
-If not, head out to [Introduction](/)
+You can create serverless Postgres in the cloud in this three easy steps
 
-In this section you will find out how to create a serverless connection to PostgreSQL in the cloud in less than 10 seconds
 
-In the Overview
----------------
-This is the Overview section. Here you will find:
+## 1. Sign up to [console](http://console.zenith.com)
+You will need to provide your github credentials and log in to the console. In the future you will also be able to sign up with Google, Microsoft, Apple, or Okta
 
-* Introduction: The Introduction explains what Zenith is, why we built it and what it can do for you.
-* Let's go!: The let's do sections just enough to start serverless Postgres on Zenith and connect your app to it.
-* Beyond the Overview section, there are four major sections of the documentation.
+## 2. Go to the clusters page and click "Create New Cluster"
+You can change the cluster name or leave it as is. Zenith chooses human readable names by default.
 
-Quickstart Guides
------------------
-The Quickstart guides go deeper into building and deploying apps on Zenith, including specific guides for Go, Node, Ruby and Deno, and creating a static website. There's also a quick guide on how to work with your deployed Apps.
+## 3. Click "Create" and Zenith will create and start a Postgres cluster
+The cluster will start automatically in a quick second and you can connect to the cluster from you command line using the command:
 
-Guides and Examples
--------------------
-Our Guides and Examples Section is a library of both full examples and detailed guides on how to configure and run particular apps or use Zenith for specific applications.
 
-Zenith Reference
-----------------
-The Reference section is the heart of the documentation with both essential reference content for Zenith's command-line tool Zenithctl and reference material for everything from Zenith's architecture and scaling to Redis on Zenith and managing secrets.
+`psql -h lb.zenith.tech -U <user_name> <cluster_name>`
 
-About Zenith
-------------
-The About section has all the essential things you need to know about Zenith as a service: pricing, security, support, privacy, and terms.
-
+If you set up `.pgpass` by clicking "Generate Token" and pasting a command into your terminal you won't need to specify your password
