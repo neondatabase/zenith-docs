@@ -47,7 +47,7 @@ module.exports = {
 
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/zenithdb/zenith-docs/edit/main/',
           routeBasePath: '/',
         },
         theme: {
