@@ -47,7 +47,7 @@ module.exports = {
 
           // Please change this to your repo.
           editUrl:
-            'https://github.com/zenithdb/zenith-docs/edit/main/website/',
+            'https://github.com/zenithdb/zenith-docs/edit/main/',
           routeBasePath: '/',
         },
         theme: {
